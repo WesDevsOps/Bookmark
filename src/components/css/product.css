@@ -1,0 +1,74 @@
+h1{
+	color: white;
+	margin: 0px;
+	text-align: center;
+}
+p {
+	color: white;
+	font-size: 12px;
+	margin: 0px;
+	text-align: center;
+}
+.text {
+	border-bottom: 2px solid white;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Bookmark{
+	height: 240px;
+	display: flex;
+
+	/*display: flex;*/
+
+
+}
+.cont {
+	display: grid;
+	align-items: center;
+	justify-self: center;
+	background-color: #121212;
+	border-radius: 5px;
+	margin-left: 15px;
+	height: 220px;
+	width: 150px;
+	max-width: 25%;
+	margin-top: 15px;
+	border: 2px solid #322d2d;
+	grid-template-rows: 1fr 4fr 1fr 1fr;
+}
+.product-image {
+	align-self: center;
+	height: 100%;
+	width: 100%;
+
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+
+}
+.product-btn {
+	display: flex;
+	width: 100%;
+	border-radius: 0px;
+	font-size: 10px;
+	align-items: center;
+	justify-self: center;
+	align-content: center;
+	justify-content: center;
+	height: 22px;
+	background-color: #12121200;
+	color: white;
+	border-right: 0px;
+	border-left: 0px;
+	border-top: 1px solid #322d2d;
+	border-bottom: 1px solid #322d2d;
+}
+.img1 {
+	background-size: cover;
+    width: 78px;
+    height: 107px;
+    border-radius: 4px;
+}

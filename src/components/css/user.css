@@ -1,0 +1,42 @@
+.form {
+	margin-top: 5px;
+	display: flex;
+	height: 50px;
+	width: 96%;
+	border-radius: 5px;
+	border: 2px solid #322d2d;
+	margin-left: 5px;
+	justify-content: space-evenly;
+	align-items: center;
+	justify-self: center;
+	background-color: #121212;
+}
+.hidden {
+	display: none;
+}
+input[type=file] ::-webkit-file-upload-button {
+	visibility: hidden;
+}
+.lable {
+	width: 22px;
+	border-radius: 5px;
+	height: 22px;
+	background-color: wheat;
+}
+input {
+	color: white;
+	font-size: 12px;
+	border: none;
+	outline: none;
+	width: 100%;
+	background-color: #12121200;
+}
+.btn1 {
+	font-size: 10px;
+	width: 50px;
+	height: 22px;
+	background-color: #12121200;
+	color: white;
+	border-radius: 4px;
+	border: 1px solid #322d2d;
+}
